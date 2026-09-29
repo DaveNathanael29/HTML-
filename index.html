@@ -3,74 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curiculum Vitae</title>
+    <title>Curriculum Vitae - Dave Nathanael Sitorus</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <!-- KEPALA CV / PROFIL -->
-    <center>
-        <h1>Dave Nathanael Sitorus</h1>
-        <p>Jakarta, Indonesia | +62 878-4102-4585 | davesitorus29@gmail.com | <a href="https://www.linkedin.com/in/dave-nathanael-sitorus-639322282/">Linkedln</a> </p>
-    </center>
+    <div class="cv-container">
 
-    <hr>
+        <!-- KEPALA CV / PROFIL -->
+        <div class="header-section">
+            <!-- BINGKAI FOTO -->
+            <div class="profile-frame">
+                <!-- Ganti foto_kamu.jpg dengan nama file foto asli Anda jika ada -->
+                <img src="foto_kamu.jpg" alt="Dave" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                <div class="photo-placeholder" style="display:none;">Foto 3x4</div>
+            </div>
+            
+            <h1>Dave Nathanael Sitorus</h1>
+            <p class="header-information">Jakarta, Indonesia | +62 878-4102-4585 | davesitorus29@gmail.com | <a href="https://linkedin.com" target="_blank">LinkedIn</a></p>
+        </div>
 
-    <h3>PROFIL SINGKAT</h3>
-    <p>Mahasiswa <b>Sistem Informasi semester 3</b> di Telkom University Jakarta yang adaptif dan memiliki ketertarikan besar pada <b>Analisis Data, Manajemen Basis Data, dan Pengembangan Web</b>. Berpengalaman dalam komunikasi dan kerja tim, serta siap mengaplikasikan ilmu teori ke dalam program magang atau kepanitiaan profesional.</p>
+        <hr>
 
-    <hr>
+        <h3>Profil Singkat</h3>
+        <p>Mahasiswa <b>Sistem Informasi semester 3</b> di Telkom University Jakarta yang adaptif dan memiliki ketertarikan besar pada <b>Analisis Data, Manajemen Basis Data, dan Pengembangan Web</b>. Berpengalaman dalam komunikasi dan kerja tim, serta siap mengaplikasikan ilmu teori ke dalam program magang atau kepanitiaan profesional.</p>
 
-    <h3>PENDIDIKAN</h3>
-    <p>
-        <b>Telkom University Jakarta</b> — Jakarta, Indonesia<br>
-        S1 Sistem Informasi | IPK: 3.67 (Semester 3)<br>
-        <i>Periode: 2025 – Sekarang (Perkiraan Lulus: 2029)</i>
-    </p>
-    <ul>
-        <li>Mata Kuliah Relevan: Sistem Manajemen Basis Data, Pemrograman Berorientasi Objek (OOP), Analisis & Perancangan Sistem, Pengantar Teknologi Informasi.</li>
-    </ul>
+        <hr>
 
-<hr>
+        <h3>Pendidikan</h3>
+        <div>
+            <div class="item-title">
+                <span>Telkom University Jakarta</span>
+                <span>Jakarta, Indonesia</span>
+            </div>
+            <div class="item-subtitle">S1 Sistem Informasi | IPK: 3.67 (Semester 3)</div>
+            <div style="font-size: 14px; color: #718096; margin-bottom: 8px;"><i>Periode: 2025 – Sekarang (Perkiraan Lulus: 2029)</i></div>
+            <ul>
+                <li>Mata Kuliah Relevan: Sistem Manajemen Basis Data, Pemrograman Berorientasi Objek (OOP), Analisis & Perancangan Sistem, Pengantar Teknologi Informasi.</li>
+            </ul>
+        </div>
 
-<h3>PROYEK AKADEMIK & TI</h3>
+        <hr>
 
-<p>
-    <b>Perancangan UI/UX Aplikasi Mobile Food App</b> — <i>Juni 2026</i><br>
-    Peran: UI/UX Designer (Proyek Pembuatan Prototipe)
-</p>
-<ul>
-    <li>Merancang alur pengguna (user flow) dan wireframe untuk aplikasi pemesanan makanan berbasis mobile.</li>
-    <li>Membuat desain antarmuka (UI) yang modern, intuitif, dan responsif dengan tema visual yang konsisten.</li>
-    <li>Menyusun prototipe interaktif untuk mempermudah navigasi pengguna dalam melakukan pengecekan dan pemesanan.</li>
-</ul>
+        <h3>Proyek Akademik & TI</h3>
 
-<p>
-    <b>Implementasi & Analisis Alur Jaringan Komputer</b> — <i>Juni 2026</i><br>
-    Peran: Network Engineer (Praktikum & Laboratorium Jaringan)
-</p>
-<ul>
-    <li>Merancang dan mengonfigurasi topologi jaringan komputer menggunakan alat simulasi Cisco Packet Tracer.</li>
-    <li>Mengimplementasikan konfigurasi routing statis serta pemetaan antarmuka antar-perangkat jaringan.</li>
-    <li>Melakukan analisis alur lalu lintas data dan pemecahan masalah (troubleshooting) untuk memastikan konektivitas antar-node berjalan optimal.</li>
-</ul>
+        <!-- Proyek 1 -->
+        <div style="margin-bottom: 20px;">
+            <div class="item-title">
+                <span>Perancangan UI/UX Aplikasi Mobile Food App</span>
+                <span>Juni 2026</span>
+            </div>
+            <div class="item-subtitle">Peran: UI/UX Designer (Proyek Pembuatan Prototipe)</div>
+            <ul>
+                <li>Merancang alur pengguna (user flow) dan wireframe untuk aplikasi pemesanan makanan berbasis mobile.</li>
+                <li>Membuat desain antarmuka (UI) yang modern, intuitif, dan responsif dengan tema visual yang konsisten.</li>
+                <li>Menyusun prototipe interaktif untuk mempermudah navigasi pengguna dalam melakukan pengecekan dan pemesanan.</li>
+            </ul>
+        </div>
 
-<p>
-    <b>Sistem Informasi & Basis Data Perpustakaan Sekolah</b> — <i>Juni 2026</i><br>
-    Peran: Database Engineer & Backend Developer
-</p>
-<ul>
-    <li>Merancang skema dan struktur basis data relasional menggunakan MySQL untuk pengelolaan entitas buku, anggota, dan transaksi peminjaman.</li>
-    <li>Mengimplementasikan logika pemrosesan data backend seperti stored procedure dan trigger otomatis untuk otomatisasi pembaruan status stok buku dan keanggotaan.</li>
-    <li>Melakukan optimasi kueri SQL untuk memastikan kecepatan pencarian katalog dan efisiensi pelaporan data operasional perpustakaan.</li>
-</ul>
+        <!-- Proyek 2 -->
+        <div style="margin-bottom: 20px;">
+            <div class="item-title">
+                <span>Implementasi & Analisis Alur Jaringan Komputer</span>
+                <span>Juni 2026</span>
+            </div>
+            <div class="item-subtitle">Peran: Network Engineer (Praktikum & Laboratorium Jaringan)</div>
+            <ul>
+                <li>Merancang dan mengonfigurasi topologi jaringan komputer menggunakan alat simulasi Cisco Packet Tracer.</li>
+                <li>Mengimplementasikan konfigurasi routing statis serta pemetaan antarmuka antar-perangkat jaringan.</li>
+            </ul>
+        </div>
 
-    <hr>
+        <!-- Proyek 3 -->
+        <div>
+            <div class="item-title">
+                <span>Sistem Informasi & Basis Data Perpustakaan Sekolah</span>
+                <span>Juni 2026</span>
+            </div>
+            <div class="item-subtitle">Peran: Database Engineer & Backend Developer</div>
+            <ul>
+                <li>Merancang skema dan struktur basis data relasional menggunakan MySQL untuk pengelolaan entitas buku, anggota, dan transaksi peminjaman.</li>
+                <li>Mengimplementasikan logika pemrosesan data backend seperti stored procedure dan trigger otomatis untuk otomatisasi pembaruan status stok buku dan keanggotaan.</li>
+                <li>Melakukan optimasi kueri SQL untuk memastikan kecepatan pencarian katalog dan efisiensi pelaporan data operasional perpustakaan.</li>
+            </ul>
+        </div>
 
-    <h3>KEAHLIAN (SKILLS)</h3>
-    <ul>
-        <li><b>Hard Skills (Teknis):</b> SQL (MySQL), Python, HTML & CSS, Microsoft Excel (Advanced), UI/UX Design (Figma).</li>
-        <li><b>Soft Skills:</b> Manajemen Waktu, Problem Solving, Komunikasi Teknis, Kerja Sama Tim, Analisis Logis.</li>
-    </ul>
+        <hr>
+
+        <h3>Keahlian (Skills)</h3>
+        <ul>
+            <li><b>Hard Skills (Teknis):</b> SQL (MySQL), Python, HTML & CSS, Microsoft Excel (Advanced), UI/UX Design (Figma).</li>
+            <li><b>Soft Skills:</b> Manajemen Waktu, Problem Solving, Komunikasi Teknis, Kerja Sama Tim, Analisis Logis.</li>
+        </ul>
+
+    </div>
 
 </body>
 </html>
